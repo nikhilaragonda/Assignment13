@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: chocolate;
+    background-repeat: no-repeat;
+}
+.navhome{
+    display: flex;
+    gap: 20px;
+}
+.navhome a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.navhome a:hover{
+    color: rgb(42, 44, 165);
+}
+.content{
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(./carvilla.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    padding-top: 20%;
+}
+@media screen and (max-width:425px) {
+    .navhome{
+        gap: 10px;
+    }
+    .navhome a{
+        font-size: 10px;
+    }
+}
